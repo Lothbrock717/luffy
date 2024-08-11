@@ -359,7 +359,7 @@ async def button(bot: Client, cmd: CallbackQuery):
                     ],
                     [
                        
-                        InlineKeyboardButton("Close 🚪", callback_data="closeMessage")
+                        InlineKeyboardButton("ᴄʟᴏꜱᴇ 🚪", callback_data="closeMessage")
                     ],
                     
                        
