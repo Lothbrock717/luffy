@@ -133,8 +133,8 @@ async def main(bot: Client, message: Message):
             short_link = get_short(share_link)
             await message.reply(
             "**ʏᴏᴜʀ ꜰɪʟᴇ ꜱᴛᴏʀᴇᴅ ɪɴ ᴍʏ ᴅᴀᴛᴀʙᴀꜱᴇ❗**\n\n"
-            f"ʜᴇʀᴇ ɪꜱ ᴛʜᴇ ᴘᴇʀᴍᴀɴᴇɴᴛ ʟɪɴᴋ ᴏꜰ ʏᴏᴜʀ ꜰɪʟᴇ!: <code>{short_link}</code> \n\n"
-            "ᴊᴜꜱᴛ ᴄʟɪᴄᴋ ᴛʜᴇ ʟɪɴᴋ ᴛᴏ ɢᴇᴛ ʏᴏᴜʀ ꜰɪʟᴇ!",
+            f"**ʜᴇʀᴇ ɪꜱ ᴛʜᴇ ᴘᴇʀᴍᴀɴᴇɴᴛ ʟɪɴᴋ ᴏꜰ ʏᴏᴜʀ ꜰɪʟᴇ!: <code>{short_link}</code> \n\n**"
+            "**ᴊᴜꜱᴛ ᴄʟɪᴄᴋ ᴛʜᴇ ʟɪɴᴋ ᴛᴏ ɢᴇᴛ ʏᴏᴜʀ ꜰɪʟᴇ !**",
             reply_markup=InlineKeyboardMarkup(
                [[InlineKeyboardButton("ᴏʀɪɢɪɴᴀʟ ʟɪɴᴋ", url=share_link),
                   InlineKeyboardButton("ꜱʜᴏʀᴛ ʟɪɴᴋ", url=short_link)]]
