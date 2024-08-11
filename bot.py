@@ -132,9 +132,9 @@ async def main(bot: Client, message: Message):
             share_link = f"https://telegram.me/{Config.BOT_USERNAME}?start=VJBotz_{str_to_b64(file_er_id)}"
             short_link = get_short(share_link)
             await message.reply(
-            "**Your File Stored in my Database!**\n\n"
-            f"Here is the Permanent Link of your file: <code>{short_link}</code> \n\n"
-            "Just Click the link to get your file!",
+            "**ʏᴏᴜʀ ꜰɪʟᴇ ꜱᴛᴏʀᴇᴅ ɪɴ ᴍʏ ᴅᴀᴛᴀʙᴀꜱᴇ❗**\n\n"
+            f"ʜᴇʀᴇ ɪꜱ ᴛʜᴇ ᴘᴇʀᴍᴀɴᴇɴᴛ ʟɪɴᴋ ᴏꜰ ʏᴏᴜʀ ꜰɪʟᴇ!: <code>{short_link}</code> \n\n"
+            "ᴊᴜꜱᴛ ᴄʟɪᴄᴋ ᴛʜᴇ ʟɪɴᴋ ᴛᴏ ɢᴇᴛ ʏᴏᴜʀ ꜰɪʟᴇ!",
             reply_markup=InlineKeyboardMarkup(
                [[InlineKeyboardButton("ᴏʀɪɢɪɴᴀʟ ʟɪɴᴋ", url=share_link),
                   InlineKeyboardButton("ꜱʜᴏʀᴛ ʟɪɴᴋ", url=short_link)]]
