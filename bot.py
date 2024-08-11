@@ -76,7 +76,7 @@ async def start(bot: Client, cmd: Message):
                     ],
                     [
             
-                        InlineKeyboardButton("Close 🚪", callback_data="closeMessage")
+                        InlineKeyboardButton("ᴄʟᴏꜱᴇ 🚪", callback_data="closeMessage")
                     ]
                 ]
             )
