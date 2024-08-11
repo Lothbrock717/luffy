@@ -39,5 +39,5 @@ Send Me any Media or File. I can Work In Channel too. Add Me to Channel with Edi
 [Donate Me](https://t.me/KingVj01)
 """
   HOME_TEXT = """
-Hello, [{}](tg://user?id={})\n\nHᴇʟʟᴏ Stranger🦋 ɪ ᴀᴍ ᴀ ᴘᴏᴡᴇʀꜰᴜʟ Fɪʟᴇ ᴛᴏ ʟɪɴᴋ + ꜰɪʟᴇ sᴛᴏʀᴇ ʙᴏᴛ ⚡️
+Hello, [{}](tg://user?id={})\n\n **Hᴇʟʟᴏ Stranger🦋 ɪ ᴀᴍ ᴀ ᴘᴏᴡᴇʀꜰᴜʟ Fɪʟᴇ ᴛᴏ ʟɪɴᴋ + ꜰɪʟᴇ sᴛᴏʀᴇ ʙᴏᴛ **⚡️
 """
